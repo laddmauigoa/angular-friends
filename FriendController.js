@@ -3,7 +3,15 @@ var app = angular.module('friendly');
 app.controller('mainCtrl', function($scope) {
 	//add a scope that stores searches
 	$scope.searchTerm = '';
-	
+	// $scope.options = {
+ //        value: 'name', label
+ //    
+
+
+// var ascDes = function() {
+
+// }
+
 
 	$scope.friends = [
     {
